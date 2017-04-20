@@ -1,0 +1,9 @@
+{{outlet}}
+
+<div class="tc mt4 upcase f4">
+  {{model.name}}
+</div>
+
+{{#each model.shows as |show|}}
+  {{show-description show=show}}
+{{/each}}

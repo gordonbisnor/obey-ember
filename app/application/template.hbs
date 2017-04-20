@@ -1,0 +1,11 @@
+<img src="/assets/OBEY-2017-Logo-web.png" class="logo db mt3"/>
+
+<div class="day-links center mt3 tc">
+  {{#each model.days as |day|}} 
+    {{#link-to 'day' day}}{{day.name}}{{/link-to}}
+  {{/each}}
+</div>
+
+<div id="container">
+  {{liquid-outlet}}
+</div>

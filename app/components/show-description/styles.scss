@@ -1,0 +1,8 @@
+&.for-artist {
+  background-color: transparentize(black,0.5);
+  border-top-width: 0!important;
+  padding: 1em;
+  * {
+    font-size: 1rem!important;
+  }
+}

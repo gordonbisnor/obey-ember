@@ -1,0 +1,90 @@
+
+$purple: rgb(141,121,144);
+$orange: #c96350;
+$pink: rgb(153, 57, 95);
+
+@import "pod-styles";
+
+.pink {color:$pink!important;}
+
+.upcase {text-transform: uppercase!important;}
+
+body {
+  background-image: url('BG-05.jpg');
+  font-size: 18px;
+}
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+.logo {
+   -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+   -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  margin: auto;
+  max-width: 340px;
+  width: 100%;
+}
+* {
+  color: white;
+}
+.day-links {
+  text-transform: uppercase;
+  font-weight: 600;
+  
+  a {
+    margin-left: 1em;
+    margin-right: 1em;
+  
+  }
+}
+a {
+  text-decoration: none;
+  color: $purple;
+  transition: color .5s;
+  .active {
+    color: $orange;
+  }
+  &:hover {
+    color: $orange;
+  }
+}
+.desc {
+  font-weight: 300;
+}
+.show + .show {
+  border-top: 1px solid $pink;
+}
+.bt, .bb {
+  border-bottom-color: $pink!important;
+  border-top-color: $pink!important;
+}
+.has-bg {
+  padding: 2em;
+  padding-top: 1em;
+  background-color: transparentize($pink, 0.8);
+  border-radius: 3px;
+}
+img {
+  max-width: 100%;
+  border-radius: 3px;
+}
+.bordered {
+  border: 1px solid transparentize($purple,0.7);
+}
+.transparent-text {
+  color: transparentize(lighten($pink, 40%),0.3);
+}
+.pullquote {
+  background-color: transparentize(darken($purple,50%),0.4);
+  padding: 3em;
+  font-family: 'Volkorn', serif;
+  font-style: italic;
+  color: transparentize(lighten($pink,20%),0.4);
+}

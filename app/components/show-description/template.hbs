@@ -1,0 +1,18 @@
+
+{{#each show.artists as |artist| }}
+  <div class="tc upcase f2 lh-solid mb2">
+    {{#link-to 'artist' artist class="artist-name"}}
+      {{artist.name}}
+    {{/link-to}}
+  </div>
+{{/each}}
+
+<div class="mt2 f4  upcase tc">
+  {{show.name}}
+</div>
+
+
+<div class="pink mt3">
+  {{show.venue}} | {{show.price}} | {{show.age}} | {{show.time}}
+</div>
+

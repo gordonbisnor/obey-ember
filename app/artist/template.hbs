@@ -1,0 +1,26 @@
+{{outlet}}
+
+<div class="has-bg tc mt4 center measure mb6">
+
+  <h1 class="upcase artist-name">{{model.name}}</h1>
+  
+  {{#if model.photo}}
+    <img class="bordered db mr3 mb3 fl" src="{{model.photo}}" alt="{{model.name}}"/>
+  {{/if}}
+
+  <div class="mt3 mb4 center tl lh-copy desc transparent-text">
+    {{md-text text= model.description typographer=true}}
+  </div>
+
+  {{#if model.quote}}
+    <div  class="pullquote lh-title tl">{{model.quote}}</div>
+  {{/if}}
+
+  <div class="pt3 pb4">
+    {{#each model.shows as |show|}}
+      {{show-description show=show classNames="for-artist"}}
+    {{/each}}
+  </div>
+
+</div>
+

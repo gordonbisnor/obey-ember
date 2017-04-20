@@ -1,0 +1,4 @@
+{{#each show.artists.each do |artist|}}
+  {{artist.name}}
+  {{show.name}}
+{{/each}}
