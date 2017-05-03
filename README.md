@@ -1,7 +1,10 @@
 # obey-ember
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is an unofficial Obey Convention schedule written in Ember as a progressive web app.
+
+https://obey-convention.firebaseapp.com/
+
+Contributions welcome
 
 ## Prerequisites
 
@@ -43,6 +46,7 @@ ember deploy production
 
 ## Further Reading / Useful Links
 
+* [Obey Convention](http://www.obeyconvention.com)
 * [ember.js](http://emberjs.com/)
 * [ember-cli](https://ember-cli.com/)
 * Development Browser Extensions
