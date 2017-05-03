@@ -14,7 +14,7 @@ body {
   font-size: 18px;
 }
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: arial, helvetica, sans-serif;
 }
 .logo {
    -webkit-user-drag: none;
@@ -30,6 +30,7 @@ body {
   margin: auto;
   max-width: 340px;
   width: 100%;
+  margin-top: 2em;
 }
 * {
   color: white;
@@ -37,18 +38,16 @@ body {
 .day-links {
   text-transform: uppercase;
   font-weight: 600;
-  
   a {
     margin-left: 1em;
     margin-right: 1em;
-  
   }
 }
 a {
   text-decoration: none;
   color: $purple;
   transition: color .5s;
-  .active {
+  &.active {
     color: $orange;
   }
   &:hover {
@@ -84,7 +83,10 @@ img {
 .pullquote {
   background-color: transparentize(darken($purple,50%),0.4);
   padding: 3em;
-  font-family: 'Volkorn', serif;
   font-style: italic;
   color: transparentize(lighten($pink,20%),0.4);
+}
+.day-links .link-follower {
+  border-color: $pink;
+  border-size: 3px;
 }

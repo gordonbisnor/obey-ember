@@ -9,5 +9,5 @@ export default Ember.Route.extend({
       artists: this.store.findAll('artist')
     });
   }
-  
+
 });

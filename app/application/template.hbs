@@ -1,10 +1,10 @@
-<img src="/assets/OBEY-2017-Logo-web.png" class="logo db mt3"/>
+<img alt="Obey Convention" src="/assets/OBEY-2017-Logo-web.png" class="logo db mt4 mb4"/>
 
-<div class="day-links center mt3 tc">
+{{#links-with-follower class="day-links center mt4 tc"}}
   {{#each model.days as |day|}} 
-    {{#link-to 'day' day}}{{day.name}}{{/link-to}}
+    {{#link-to 'day' day class="f3 ml3 mr3 dib" tagName="li"}}{{day.shortName}}{{/link-to}}
   {{/each}}
-</div>
+{{/links-with-follower}}
 
 <div id="container">
   {{liquid-outlet}}

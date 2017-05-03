@@ -1,6 +1,9 @@
 import DS from 'ember-data';
 
-export default DS.Model.extend({
-  name: DS.attr(),
-  shows: DS.hasMany('show')
+const {Model, hasMany, attr} = DS;
+
+export default Model.extend({
+  name: attr(),
+  shortName: attr(),
+  shows: hasMany('show')
 });

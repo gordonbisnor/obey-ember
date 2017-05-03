@@ -7,5 +7,6 @@ export default Model.extend({
   description: attr(),
   photo: attr(),
   shows: hasMany('show'),
-  quote: attr()
+  quote: attr(),
+  obeyUrl: attr()
 });

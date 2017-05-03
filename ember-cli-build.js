@@ -7,7 +7,7 @@ module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
     // Add options here
     'esw-cache-fallback': {
-      //patterns: ['/api/v1/(.+)']
+      //  patterns: ['/api/v1/(.+)']
     }
   });
 

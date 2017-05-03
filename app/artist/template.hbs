@@ -2,7 +2,7 @@
 
 <div class="has-bg tc mt4 center measure mb6">
 
-  <h1 class="upcase artist-name">{{model.name}}</h1>
+  <h1 class="upcase artist-name" data-artist-id="{{model.id}}">{{model.name}}</h1>
   
   {{#if model.photo}}
     <img class="bordered db mr3 mb3 fl" src="{{model.photo}}" alt="{{model.name}}"/>
@@ -21,6 +21,12 @@
       {{show-description show=show classNames="for-artist"}}
     {{/each}}
   </div>
+  
+  {{#if model.obeyUrl}}
+    <div class="pt3 pb4">
+      <a href="{{model.obeyUrl}}" target="_blank" rel="noopener noreferrer">More about {{model.name}} on Obey Convention site</a>
+    </div>
+  {{/if}}
 
 </div>
 
