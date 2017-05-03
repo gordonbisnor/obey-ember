@@ -1,8 +1,8 @@
 # obey-ember
 
-This is an unofficial Obey Convention schedule written in Ember as a progressive web app.
+This is an unofficial Obey Convention schedule written in Ember as a progressive web app. 
 
-https://obey-convention.firebaseapp.com/
+[https://obey-convention.firebaseapp.com/](https://obey-convention.firebaseapp.com/)
 
 Contributions welcome
 
