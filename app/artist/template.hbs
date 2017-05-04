@@ -6,7 +6,8 @@
   <h1 class="upcase artist-name" data-artist-id="{{model.id}}">{{model.name}}</h1>
   
   {{#if model.photo}}
-    <img class="bordered db mr3 mb3 fl" src="{{model.photo}}" alt="{{model.name}}"/>
+
+    <img class="bordered db mr3 mb3 center" src="/assets/artists/{{model.photo}}" alt="{{model.name}}"/>
   {{/if}}
 
   <div class="mt3 mb4 center tl lh-copy desc transparent-text">
