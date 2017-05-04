@@ -2,12 +2,10 @@
 
 <img alt="Obey Convention" src="/assets/OBEY-2017-Logo-web.png" class="logo db mt4 mb4"/>
 
-{{#links-with-follower class="day-links center mt4 tc"}}
-  {{#each model.days as |day|}} 
-    {{#link-to 'day' day class="f3 ml3 mr3 dib" tagName="li"}}{{day.shortName}}{{/link-to}}
-  {{/each}}
-{{/links-with-follower}}
+{{day-links days=model.days}}
 
 <div id="container">
   {{liquid-outlet}}
 </div>
+
+{{day-links days=model.days class="pb4"}}
