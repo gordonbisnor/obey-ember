@@ -42,9 +42,13 @@ body {
 .day-links {
   text-transform: uppercase;
   font-weight: 600;
-  a {
-    margin-left: 1em;
-    margin-right: 1em;
+  li {
+    background-color: transparentize($pink,0.8);
+    padding: .5em;
+    padding-left: .75em;
+    padding-right: .75em;
+    display: inline-block;
+    border-radius: 3px;
   }
 }
 a {
