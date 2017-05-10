@@ -2,6 +2,21 @@
 $purple: rgb(141,121,144);
 $orange: #c96350;
 $pink: rgb(153, 57, 95);
+ 
+* {
+
+-webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+   -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  
+}
 
 @import "pod-styles";
 
@@ -21,7 +36,7 @@ body {
   font-family: arial, helvetica, sans-serif;
 }
 .logo {
-   -webkit-user-drag: none;
+  -webkit-user-drag: none;
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
