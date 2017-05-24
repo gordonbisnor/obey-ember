@@ -6,8 +6,8 @@ export default ApplicationAdapter.extend({
   {
     "id": 1,
     "name": "David Barclay",
-    "description": "Philadelphia’s Camae Ayewa is a multi-faceted activist, educator, poet, emcee, producer, futurist and all-around badass human working at the forefront of truly contemporary underground American music. Her work as Moor Mother (re)constructs complex narratives of power and identity through emphatically smashed samples and sonic patchwork. Ayewa’s outré hip-hop display flashes of avant-jazz, punk, power electronics, house, spoken word and sound collage.\n\nSelf-described as “blk girl blues” and “project housing bop” and “slaveship punk”, the music is a wellspring of thought and energy. After four years of self-releasing material through Bandcamp and Soundcloud, she dropped her proper debut, Fetish Bones, in the fall of 2016. The resulting critical acclaim landed Ayewa on the cover of UK’s The Wire, on a list of ‘New Artists You Should Know’ in Rolling Stone, and on year-end lists from Pitchfork, The Quietus and Time Out New York. Ayewa is a voice of many voices, strong and sprawling – past, present, future, tense.",
-    "quote": "Just a handful of times in any given generation, there is a record that screams out with such overwhelming force, such a level of unwavering vitality, a product of the organic creative process made necessary by the social context of the artistry, that it demands we all stop what we are doing and give it our full attention. Fetish Bones is such a record. - Jazz Right Now",
+    "description": "",
+    "quote": "",
     "photo": ""
   },
   {
