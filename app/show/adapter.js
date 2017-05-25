@@ -172,7 +172,7 @@ export default ApplicationAdapter.extend({
     "id": 16,
     "dayId": 3,
     "name": "",
-    "venue": "Maritime Conservatory",
+    "venue": "Halifax Music Co-Op",
     "time": "8pm",
     "price": "$20/$25 door",
     "age": "all ages",
