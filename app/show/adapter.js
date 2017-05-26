@@ -161,7 +161,7 @@ export default ApplicationAdapter.extend({
     "id": 15,
     "dayId": 3,
     "name": "National Drone Day-Open Jam",
-    "venue": "Eyelevel Gallery",
+    "venue": "Eyelevel Gallery | Rain Location: North Branch Library Garage",
     "time": "5-8pm",
     "price": "FREE",
     "age": "all ages",
