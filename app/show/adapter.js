@@ -62,7 +62,7 @@ export default ApplicationAdapter.extend({
     "id": 6,
     "dayId": 2,
     "name": "",
-    "venue": "Common Roots Farm",
+    "venue": "St George’s Round Church, 2222 Brunswick St. at Cornwallis",
     "time": "3pm",
     "price": "FREE",
     "age": "all ages",
