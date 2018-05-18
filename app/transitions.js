@@ -1,6 +1,6 @@
 export default function () {
 
-  let duration = {duration: 75}
+  let duration = {duration: 25}
 
   this.transition(
     this.toValue(function(value){ value !== undefined }),

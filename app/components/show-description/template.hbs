@@ -1,17 +1,25 @@
-
-{{#each show.artists as |artist| }}
-  <div class="tc upcase f2 lh-solid mb2" data-artist-id="{{artist.id}}">
-    {{#link-to 'artist' artist class="artist-name"}}
-      {{artist.name}}
-    {{/link-to}}
-  </div>
-{{/each}}
-
-<div class="mt2 f4  upcase tc">
+<header class=" f4  upcase tc pa4 pt3 pb3">
   {{show.name}}
+</header>
+
+<div class="content">
+  <img class=" db  center" src="/assets/{{show.photo}}" alt="{{show.name}}"/>
+
+  {{#each show.artists as |artist| }}
+    <div class="artist pt2 pb2 fw3 tc upcase f3 lh-solid" data-artist-id="{{artist.id}}">
+      {{#link-to 'artist' artist class="artist-name"}}
+        {{artist.name}}
+      {{/link-to}}
+    </div>
+  {{/each}}
+  
 </div>
 
-<div class="pink mt3">
-  {{show.venue}} | {{show.price}} | {{show.age}} | {{show.time}}
+<div class="pink venue pt2 pb2 ttu">{{show.venue}}</div>
+
+<div class="light-pink deets">
+  <div class="deet pt2 pb2"><div class="deet-inner">{{show.price}}</div></div>
+  <div class="deet pt2 pb2"><div class="deet-inner">{{show.time}}</div></div>
+  <div class="deet pt2 pb2"><div class="deet-inner">{{show.age}}</div></div>
 </div>
 

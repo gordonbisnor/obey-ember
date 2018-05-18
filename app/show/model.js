@@ -9,5 +9,6 @@ export default Model.extend({
   day: belongsTo('day'),
   venue: attr(),
   time: attr(),
+  photo: attr(),
   artists: hasMany('artist')
 });

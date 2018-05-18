@@ -3,295 +3,232 @@ import ApplicationAdapter from 'obey-ember/application/adapter';
 export default ApplicationAdapter.extend({
 
   data: [
-  {
-    "id": 1,
-    "name": "David Barclay",
-    "description": "",
-    "quote": "",
-    "photo": ""
-  },
-  {
-    "id": 2,
-    "name": "New Music From The Academy",
-    "description": "",
-    "photo": ""
-  },
-  {
-    "id": 3,
-    "name": "Jay Crocker",
-    "description": "Having relocated to the remote locale of Crousetown, Nova Scotia in 2011 to escape Calgary’s developmental emptiness, improv/composition wiz Jay Crocker found himself sounding by his lonesome. The revered left-field player/producer/instrument-builder spent the first few years dislocated from his former music community toiling away in his home studio, creating new ways of creating. The results have been nothing short of startling so far. In 2015, Crocker released the wildly-inventive full-length MUUIXX under the moniker JOYFULTALK. Ostensibly a solo project fleshed out by Crocker’s modded, homebuilt instruments and bolstered live by multi-instrumentalist Dice Parks, JOYFULTALK combines micro-kraut, glitch-hop and tape-warmed ambience into an unparalleled universe of music. As part of OBEY X, we’re overjoyed to be premiering Crocker’s most-recent mindbender, The Bibelot. Part instrument, part installation, The Bibelot is a self-composing set of sixteen ceiling mounted music boxes with custom-built drives, loops, lights and amps. Creating a sanctuary space that reflects the natural constancy of change, The Bibelot represents a major achievement by one of our nation’s most exciting musical vanguards; a sonic portal of limitless combination that will slip you into the infinite now.",
-    "photo": "Jay-Crocker-300x300.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/jay-crocker/"
-  },
-  {
-    "id": 4,
-    "name": "Senyawa",
-    "description": "Easily one of the most unique, talked-about and mind-altering bands currently touring the international circuit, the Indonesian duo of Wukir Suryadi and Rully Shabara tend to leave both audiences and critics at a loss for how exactly to describe the group’s powerful, unprecedented music. Suryadi, the instrumentalist of the group, plays a bambuwukir, a kind of modified zither of his own invention that derives as much from traditional Javanese music as it does his own idiosyncratic practices. In the hands of Suryadi, the dynamic stringed instrument is manipulated feverishly, unleashing skittering runs, percussive booming and delicate thrums in turn.\n\nPerhaps even more dynamic is vocalist Rully Shabara. Transitioning between accomplished, operatic falsetto, frantic phonetic mumblings, laughter, throaty growls and piercing screams (often within a given composition) Shabara displays an unparalleled performativity tempered by fabulous sensibility. Working in such extremes, one may expect the music to be confrontational or thorny, but to Senyawa’s credit, the results are more often soulful and empowering.\n\n",
-      "quote": "It’s safe to say there is no other band on the planet quite like Senyawa. What do you call the music of this Indonesian duo: folk? Doom metal? Unplugged minimalist noise improv? In fact, it is a little bit of each. - Pitchfork",
-    "photo": "Senyawa-Crop-300x297.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/senyawa/"
-  },
-  {
-    "id": 5,
-    "name": "Jerry Granelli",
-    "description": "Free-jazz drummer and mentor extraordinaire, Jerry Granelli has been at the backbone of innovative musical happenings in Halifax for over three decades. Born in 1940 in San Francisco, Granelli’s life-long career has seen collaborations with the likes of Charlie Haden, Allen Ginsberg, Sly Stone, Ornette Coleman and Jay Clayton, tenures at Naropa University and the Jazz Institute of Berlin, and nods from the Junos, the Grammy Awards, the National Library of Congress Sound Archives, and the Rock and Roll Hall of Fame. Needless to say, his history has become the stuff of local lore, though it’s Granelli’s present-tense mentality and relentless inventiveness that have proved a vital source of inspiration for generations of Halifax musicians. Performing a special set for solo percussion entitled ‘Dragon’s Thunder’, we’re deeply honoured to be hosting this inimitable figure.",
-    "photo": "Granelli_010717_0006-300x300.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/jerry-granelli/"
-  },
-  {
-    "id": 6,
-    "name": "Colin Fisher",
-    "description": "If everything goes the way we hope, Colin Fisher’s likeness will be printed on money someday. The Toronto-based multi-instrumentalist, composer, improviser, Alexander Technique teacher and tarot reader is an institution of creative music in North America. For Fisher, the power of music exceeds classification and genre, it finds root in the expression of the biological organism and its relationship to the greater universe/creation which is defined by vibrations. His contributions to labels such as Tzadik, Healing Power, Merge, Sub Pop and Inyrdisk among others span free jazz, psych-folk and the experimental edges of rock. His performance here in 20I5 as one half of cosmic duo Not The Wind Not The Flag was totally transforming, and we expect his solo outing to be much the same. In his own words: “Music can heal; serving as biofeedback to bring the organism back into balance/homeostasis”.",
-    "photo": "colin-f.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/colin-fisher/"
-  },
-  {
-    "id": 7,
-    "name": "Elysia Crampton",
-    "description": "Bolivian-American producer Elysia Crampton’s music renegotiates boundaries moment by moment. Equally steeped in club culture and Latin American cumbia traditions, her work explores the historic roots of queer identity in conjunction with South American spirituality. Refusing to slot into a particular genre, her music has an eeire, untethered quality. Part think-piece, part body modifier, wrapped in jungle trance, chopped with pop-culture detritus, it is as seductive as it is unsettling.\n\nHer most recent releases include American Drift, a four-song suite that sonically excavates the Latinx experience from within a muddied West Virginian history, and last year’s unclassifiable, Elysia Crampton Presents: Demon City, an ‘epic poem’ inspired in part by Bartolina Sisa, an indigenous heroine who died opposing Spanish colonial powers in 18th-century Bolivia. Although Crampton’s work deals explicitly with weighty and complicated subject matter, her true talent rests in making highly visceral music felt first with the body, and later teased-out with an enlightened mind.",
-    "quote": "Her music has always made one feel a little lost in time and space [...] She creates a special extraterrestrial zone where if you just listen you can get a glimpse into a realm of possibility you desperately want. A place in the world where difference is celebrated, and healing and growth are givens. - Pitchfork",
-    "photo": "Elysia-300x300.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/elysia-crampton/"
-  },
-  {
-    "id": 8,
-    "name": "New Chance",
-    "description": "New Chance is the solo music project of multimedia artist Victoria Cheong (formerly of HVYWTR and The Deeep). Weaving together elements of dance and techno, dub, noise and pop, New Chance pushes to develop a new sound at turns barren and flourishing. With expansive sonic landscapes and a multifaceted voice, her music embodies free-thinking, conflicted feelings, and hopefulness for change. A veritable force of culture in the Big Smoke, Cheong works with the event collective Boop! and co-runs the mighty Healing Power Records. She has a forthcoming mixtape to be released in conjunction with the exhibition Feministry is Here at Mercer Union and is currently producing a collection of new recordings, New Chance Hardly Working.",
-      "quote": "“New Chance’s recent work — murky and obtuse, with little cryptic nods in the direction of things such as early house — is without a doubt some of the best new work to be emerging from Toronto in the past while.” - Nick Storring, Ratio",
-    "photo": "New-Chance-c_o-night-gallery.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/new-chance/"
-  },
-  {
-    "id": 9,
-    "name": "Budi",
-    "description": "BUDI is the most recent incarnation of musical polymath Nick Dourado. The Calgary-born, Halifax-based gem has been lending his fiery talents and unequivocal energy to many of the city’s most exciting musical projects over the past seven years. To wit, Dourado performed a total of five separate times at last year’s Convention, each time pouring his soul’s magic down into the guts of a given show. Be it with glam-dronerz Special Costello, power-tripperz EDDY, soon-to-be-pop-starz Century Egg, or skronk-loverz xxvii (not to mention the countless nods, guest appearances and extra-curriculars), Dourado’s ceaseless energy has raised the bar across the board for musical happenings in Halifax. Enter BUDI, the catch-all moniker for his rarified, late-nite, deep-soul vibes. As Dourado continues to press feverishly forward, coupling community advocacy with forward-thinking compositional freeqness, he proves time and again to be a true firebrand. Our easy pick for Burgeoning National Treasure.",
-    "photo": "BUDI.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/budi/"
-  },
-  {
-    "id": 10,
-    "name": "Staying Underground",
-    "description": "A duo of tastemakers, making your mind easier and up. Alfalfa Brown, born and raised in Baltimore, New York to Cali— Eminence Grise as a necessity, curating perpetually. Alfalfa Brown plays the music that you will know and love before you knew and loved it. And Mistah Rapsey, founder and curator of Staying Underground. Rapsey built a name for himself as a music digger with a distinctive style of mixes that take the listener on a journey. With over 100 mixes in his archive since 2010, Mistah Rapsey continues tirelessly to document the evolving sounds of the next generation of artists.",
-    "photo": "Staying-Underground.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/staying-underground/"
-  },
-  {
-    "id": 11,
-    "name": "NoiseCAD",
-    "description": "Students from NSCAD’s Audio Explorations course will be presenting experimental sound performances in a classroom setting adjacent to our opening night show at Citadel High. While OBEY Convention has been host to many curious surprises, last year’s NoiSeCAD wyrding provided some of the more visceral and downright provocative sonic surprises in festival history. Be sure to take a moment to expand your earholes by sitting in on this extra-curricular sound session.",
-    "photo": "NOISECAD.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/noisecad/"
-  },
-  {
-    "id": 12,
-    "name": "East of the Valley Blues",
-    "description": "Twin-brother duo of Patrick and Kevin Cahill devise new routes through American Primitive music. Weaving improvised, long-form compositions that recall the softer sides of Robbie Basho and Jack Rose, the Cahill’s draw equally from drone, Delta blues, psychedelic raga and Celtic melody. East Of The Valley Blues is a complex mirror hall reflecting a sylvan light; one twin plays lefty, the other plays right.",
-    "photo": "eotvbliveshot.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/east-of-the-valley-blues/"
-  },
-  {
-    "id": 13,
-    "name": "Open Borders",
-    "description": "Open Borders are a collective of musicians gathering their respective traditions together and bending them to create something new. Featuring the intricate melodies of Mohammad Sahraei, a virtuosic tar player and well-traveled ethnomusicologist, and Samidha Naik, a commanding vocalist, the group is held in deep rhythm by percussive trio Nikoo Mansourifar, Taral Naik and Matthew Gallant. Playing cross-modal music featuring Iranian and Hindustani flourishes, Open Borders’ interwoven harmonies create new, expansive horizons.",
-    "photo": "Open-Borders.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/open-borders/"
-  },
-  {
-    "id": 14,
-    "name": "Chris Murdoch",
-    "description": "",
-    "photo": ""
-  },
-  {
-    "id": 15,
-    "name": "Geil",
-    "description": "We couldn’t count on our combined digits the number of amazing punk bands that have featured the members of Geil in various incarnations. Our local punk scene seems to pour over with exciting new combinations in an endless stream and the likes of Jessi Talbot (vox), Ben Brennan (guitar/vox), Tri Le (bass) and Aaron Burke (drums) continuously turn up at the top of the list. Desperation, innovation and feverish precision mark the sharpened bursts from Geil. Without a doubt some of the finest hardcore happening in Halifax.",
-    "photo": "Geil-300x300.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/geil/"
-  },
-  {
-    "id": 16,
-    "name": "Rabies",
-    "description": "Rabies is a new group formed by Rachel Fry and David Burns of the underground rock band Surveillance, Jeremy “Special” Costello, and local rising star Bria Cherise Miller. Engendered by the decadent mind of songwriter Rachel Fry, their music is bitterly impassioned, with moods cut from a melodramatic t.v. fantasy hidden behind the closed curtains of a second story apartment. Having already released one full-length album, the band is developing its apprehensively antagonistic pop sound by doing what they do best: writing, recording, and occasionally performing in front of a live human audience.",
-    "photo": "image-1-300x300.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/rabies/"
-  },
-  {
-    "id": 17,
-    "name": "Instant Places",
-    "description": "Laura Kavanaugh and Ian Birse create generative performances and installations using handmade hardware/software systems. As Instant Places, the pair have nearly two decades of experience presenting their unique, intensive projects at some of the most exciting venues and festivals around the world. Combining colourful visual abstracts and fidgeting, organic soundscapes, Instant Places fold the audience into a deeper understanding of sound and space. As their moniker suggests, Birse and Kavanaugh use their tech savvy and sharpened performative instincts to map out what feels like new and sudden phenomenological spaces. By recombining and responding to pre-existing forces, Instant Places perform the inside-outing of reality.",
-    "photo": "instantplaces-1-300x300.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/instant-places/"
-  },
-  {
-    "id": 18,
-    "name": "Chik White",
-    "description": "As chik white, West Chezzetcook’s Darcy Spidle conjures nature’s violence by sounding his body with a jaw harp. As a musician, performance artist, screenwriter and, yes, founder and former director of the OBEY Convention, Spidle has been an indispensable force for all things wyrd in Nova Scotia. The past year has seen a reactivation of his jaw harp practice with two widely acclaim releases, 2016’s Malform and 2017’s Soft Shapes. Both recordings showcase Spidle’s relentless physical dedication and nuanced compositional voice, all augmented by newfound close-miking techniques that make for a severely twisted and intimate listen. His live performances play out as selfless dirges into the depths of human form and condition. Behold the dark energy.",
-    "photo": "log-face-300x300.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/echo-beach/"
-  },
-  {
-    "id": 19,
-    "name": "Uniform",
-    "description": "Amidst the political unrest of early 2017, on the very day of President Trump’s inauguration, this industrial NYC thrash-metal duo released one of the angriest, most ferocious records in recent memory. Wake In Fright draws on the overdriven drum-machine-nihilism of Big Black and folds found sound, foley samples and bloodletting solos into the galvanic madness. But where Albini & Co were often sardonic, detached even, Michael Berdan’s venomous vocals and relentless stage presence remind the audience that much is at stake. Steeped in hardcore’s furious rage and seared by moments of burning, metallic precision, Uniform provide few answers to today’s troubling times; rather, they respond with a form of vital confrontation. Distressed and painful. Wholly unforgiving. Uniform is stricken with a new world fever.",
-    "quote": "Wake In Fright is a misanthropic social/personal/political blank cheque as bleak in outlook as it is righteously harrowing in sound. It’s 2017, and life’s a chasm. Uniform are staring right in. - The Quietus",
-    "photo": "0008457546_10.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/uniform/"
-  },
-  {
-    "id": 20,
-    "name": "Xo Xv Xt",
-    "description": "✘O ✘V ✘T is a Canadian alternative R&B artist. Having once graced our festival as the equally mysterious and alluring XXX Clever, the artist behind ✘O ✘V ✘T is responsible for some of the most invigorating live MC sets we’ve ever seen. A curious blend of flash and introspection. In his own words:  “Exploring the space between the lies we tell ourselves & the longing for love we share, exposing feelings that are specifically uncomfortable for the sake of growth.”",
-    "photo": "xo-xv-xt.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/%E2%9C%98o-%E2%9C%98v-%E2%9C%98t/"
-  },
-  {
-    "id": 21,
-    "name": "The Submissives",
-    "description": "Led by the alluring Deb Edison, Montreal’s Submissives make saccharine outsider pop gone slightly off. The group’s recent cassette releases, Do You Really Love Me? and Betty Told Me, explore the malaise of love lost or never had, or had and hated for. All of this may sound like a rather straightforward affair, but The Submissives manage to subvert all the mundanity of heart-worn song with a pitch perfect tone of soft sarcasm, turning their thematized half-anthems into jangled thoughtrock.",
-    "photo": "SUBMISSIVES_FOR_OBEY.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/the-submissives/"
-  },
-  {
-    "id": 22,
-    "name": "DJ Ron Wolf, CEO",
-    "description": "Co-founder of the brilliantly curated Healing Power Records and programmer at Toronto’s much-loved TRANZAC Club, Wolfgang Nessel has been one of the Big Smoke’s finest selectors since the early aughts. With a broad palette and a keen ear for that new new, Nessel will be pulling from all angles, keeping the vibes alive and the sound so seamless.",
-    "photo": "Ron-Wolf.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/dj-ron-wolf-ceo/"
-  },
-  {
-    "id": 23,
-    "name": "Moor Mother",
-    "description": "Philadelphia’s Camae Ayewa is a multi-faceted activist, educator, poet, emcee, producer, futurist and all-around badass human working at the forefront of truly contemporary underground American music. Her work as Moor Mother (re)constructs complex narratives of power and identity through emphatically smashed samples and sonic patchwork. Ayewa’s outré hip-hop display flashes of avant-jazz, punk, power electronics, house, spoken word and sound collage. Self-described as “blk girl blues” and “project housing bop” and “slaveship punk”, the music is a wellspring of thought and energy. After four years of self-releasing material through Bandcamp and Soundcloud, she dropped her proper debut, Fetish Bones, in the fall of 2016. The resulting critical acclaim landed Ayewa on the cover of UK’s The Wire, on a list of ‘New Artists You Should Know’ in Rolling Stone, and on year-end lists from Pitchfork, The Quietus and Time Out New York. Ayewa is a voice of many voices, strong and sprawling – past, present, future, tense.",
-    "photo": "IMG_0813.jpg",
-    "quote": "Just a handful of times in any given generation, there is a record that screams out with such overwhelming force, such a level of unwavering vitality, a product of the organic creative process made necessary by the social context of the artistry, that it demands we all stop what we are doing and give it our full attention. Fetish Bones is such a record. - Jazz Right Now",
-    "obeyUrl": "http://www.obeyconvention.com/artists/laraaji-2/"
-  },
-  {
-    "id": 24,
-    "name": "Plasmalab",
-    "description": "Sludge-rok trio Plasmalab emerged on the Toronto live scene in 2015 and caught a serious buzz after their six-song snakebite of a demo in January 2016. Applying the strategy of no rules, scrappy to the core, by any means necessary punk-rok, they’ve made a world of their own in which you are welcomed to revel and sway. The Lab will be making their Halifax debut in support of LOVE/LIFE, their first full-length release, out this spring on Ottawa’s Bruised Tongue.Sass factor set to high. Rated R for rok. Enter the lab of love.",
-    "photo": "Plasmalab.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/plasmalab/"
-  },
-  {
-    "id": 25,
-    "name": "Twilight Express",
-    "description": "There’s a hum in the air. Frequency & disillusion. The rumble of the railroad tracks. The smell of blood. Police sirens in the distance. A dull thud. Hi-hats. Distorted voice. A cocktail of fuzz. Bass turning over. The sun is dying in the sky. Only to be born again another day.",
-    "photo": "CODO-LOWE-2.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/twilight-express/"
-  },
-  {
-    "id": 26,
-    "name": "gBloo-BIES",
-    "description": "gBLOO-bies is a performance collective that originated from the contemporary walls of The Khyber. gBLOO-bies’ work integrates improvisational sounds and music into digital performance and investigates notions of space, interaction, musical and visual communication.",
-    "photo": "gBloobies.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/gbloo-bies/"
-  },
-  {
-    "id": 27,
-    "name": "Kate MacDonald and Emma Paulson",
-    "description": "The Magic Project came into existence in November 2016. Kate MacDonald (Founder and Co-Creator) incubated the idea alongside Emma Paulson (Executive Director and Co-Creator) in reaction to the presidential election of Donald Trump. The Magic Project aims to bring the voices and experiences of marginalized communities to the forefront of social media and community discussion, and to break down stereotypes of oppressed communities using photography.\n\nPaulson and MacDonald have hosted a series of events throughout HRM including photoshoots, panel and community discussions, workshops, showcases and celebrations including Black Girls are Magic (shot by Joy Tagboto), Black Kings are Magic (shot by Chudi Harris), Queer People are Magic (shot by Helena Darling) and Transparent. Photos from such happenings reached over 20,000 people and the pair were invited to speak about their work and social justice issues with CBC, The Signal, The Coast and NSCC. In the near future they plan to host more photo shoots and community discussions surrounding other marginalized communities in Halifax and hopefully across Canada. They will also be exploring social justice and radical activism in the arts in the coming future.",
-    "photo": "IMG_1171.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/the-magic-project/"
-  },
-  {
-    "id": 28,
-    "name": "Fake Buildings",
-    "description": "Fake Buildings is the shared labour of Caleb Glasser, Jess Lewis, Danika Vandersteen and Nathan Doucet. Caleb writes and records the songs alone in a shed and then Jess, Dani, and Nate help them put on clothes and walk out into the real world. The live set is a constantly shifting thing. Sometimes it is quiet, like the inside of a stone. Sometimes it is loud, like the contestants on TLC’s Trading Spaces sobbing in the gaudy wreckage of their new living room. Sometimes there are jokes in the songs but sometimes there are not jokes.",
-    "photo": "Fake-Buildings-Photo-9.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/fake-buildings/"
-  },
-  {
-    "id": 29,
-    "name": "Aquakulture",
-    "description": "Working in a genre self-described as ‘aquavibe’, 24-year-old Lance Sampson displays a preternatural gift for individuation and inspiration. After a smattering of Soundcloud singles, including the effortless vibe-inducer ‘1 Spring Garden’,  Sampson dropped his first collection, Water Temple, in late March. Touching on nu-blues, R&B and spacious neo-soul, his distinctive, captivating persona is felt throughout.  Having spent time time in and out of prison between ages 15 and 21, Sampson learned to play guitar while incarcerated and used music as a means for spiritual focus. Fed up with the limitations his former musical persona, Lex, a hardcore street emcee, Sampson opted instead for Aquakultre, a title that brings with it a renewed source of energy and exploration. In the early stages of a full and startling blossom, Aquakultre is Halifax’s most exciting young voice.",
-    "photo": "Aquakultre.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/aquakultre/"
-  },
-  {
-    "id": 30,
-    "name": "Anne Bourne",
-    "description": "",
-    "photo": ""
-  },
-  {
-    "id": 31,
-    "name": "National Drone Day",
-    "description": "",
-    "photo": ""
-  },
-  {
-    "id": 32,
-    "name": "Xylouris White",
-    "description": "The music of this duo is a testament to both members’ remarkable histories. Xylouris, one of Crete’s best-loved artists, is a scion of Greek musical royalty, a family from a mountain village near the Cave of Zeus. His father is revered singer / lyra player Psarandonis. Having inherited his passion for performance from his father at a young age, and accompanying him on-stage in his teenage years, Xylouris went on to form his own ensemble, touring internationally for over two decades. At a stop in Melbourne in the early 90s, he met Jim White.\n\nWhite should be well known to nearly anyone with an ear for alt-american music of the last 20 years. Aside from his anchorage of storm’s-eye diviners Dirty Three, his talents can be heard behind the likes of PJ Harvey, Smog, Nina Nastasia, Bonnie ‘Prince’ Billy and more. Known for a preternatural free-jazz approach to the kit, White’s prowess has been employed time and again to evoke a deep, undeniable emotionality.\n\nTogether, the two players expand each other’s vocabulary beautifully. Ever listening, inflecting, tinkering and driving towards a flourishing peak, Xylouris White forge a seismic form of jazz-altered power-folk. Busy hands and compositional bravado lend the music a sense of vigorous questing.",
-    "quote":"There’s an ancient sense of purity to this music which seems a cut above any similar projects. Xylouris is (quite literally) a born musician, and the cultural DNA we practically all share with Greece works to his advantage, having him speak something approximating a universal musical language. - The Quietus",
-    "photo": "xylouriswhite-300x300.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/xylouris-white-2/"
-  },
-  {
-    "id": 33,
-    "name": "Xuan Ye",
-    "description": "Xuan Ye is a Toronto-based artist whose work synthesizes music, performance and visual arts between which the boundaries are ever-blurring. As her definition of (soma/sound) experience morphs to suit multifarious situations and concepts, Xuan sculpts performances where objects sound, sound improvises, body transmutes, and space resonates. Notable for their visceral impact and nuanced cacophony, Xuan’s performances evoke startling elements of sound and space “in the pure now”. Beyond her riveting live performances, Xuan also composes for recording, installation and film. Her works have been performed and exhibited throughout North America, Europe and China.",
-    "photo": "Xuan-Ye-300x300.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/xuan-ye/"
-  },
-  {
-    "id": 34,
-    "name": "Pelada",
-    "description": "A raw blend of moody acid house and gnarly Detroit techno. Trimmed with a punk ethos and lit with political charging. Pelada, the Montreal-Berlin duo of vocalist Chris Vargas and producer Tobias Rochman, inflect a heavy presence. Pelada fuels the tension found between studied reserve and all-out wilding. Vargas’ lyrics, shouted out in a white-knuckled Spanish, arrive in short, emphatic spurts while Rochman’s subtly constructed jamz weave into a calculated frenzy. The duo’s first EP was re-released last fall (and sold out on the spot) by the Franco-Japanese MIND Records. A whirlwind tour of Europe’s finest clubs and bunkers followed in early 2017, leaving Pelada poised to break. Known for their infectious, high-energy live sets, this relentless duo is effectively the essential OBEY party act: whipsmart, insurgent and powerful.",
-    "quote": "There’s an immediacy to live performance that can be so difficult to capture in a recording. Much of Pelada’s appeal comes from the raw energy of their live show, and their recent self-titled debut EP, is a perfect distillation of that sound. - VICE",
-    "photo": "maikorodrig-pelada04-2-300x300.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/pelada/"
-  },
-  {
-    "id": 35,
-    "name": "Fet.Nat",
-    "description": "We’ve been hearing rave (like stark, raving) reviews about FET.NAT’s live shows for the past few years so we’re thrilled to be hosting them on their first tour of the East Coast. A central component of Hull’s much buzzed about E-Tron Records scene, the four-piece ensemble blends elements of post-punk, kraut, free-jazz and oddball humour into an infectious, off-kilter performance of mammoth proportions. Fronted by the charismatic JFNO, supported by the virtuosic Linsey Wellman (sax) and propelled by the deft rhythm duo of Pierre-Luc Clément (guitar + sampler) and Olivier Fairfield (drums), FET.NAT’s technical prowess finds a direct line into a bizarre, schizoid vision that is as sinister as it is playful. Something like Bon Cop Bad Cop: The Musical scored by Pere Ubu.",
-    "photo": "IMG_2612.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/fet-nat/"
-  },
-  {
-    "id": 36,
-    "name": "Maje",
-    "description": "A vital emcee hailing from East Preston, MAJE blends bravado, beauty and civic pride with a keen ear for detail. Bar by bar, his narratives unfold with a butter-smooth inflection, shedding light into the folded corners of emotion. In the past two years, MAJE scooped up top prize in the Viola Desmond Songwriting Competition, received a nod for African Nova Scotian Music Association Rising Star and found himself a semi-finalist in CBC’s Searchlight contest. Using this momentum brilliantly, MAJE dropped Outhome in late 2016, a meditative short film that subtly recalibrates the East Coast hip-hop identity.",
-    "photo": "FB_IMG_1489763373975-300x300.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/geil-2/"
-  },
-  {
-    "id": 37,
-    "name": "Shyshaya",
-    "description": "Shyshaya is a designer, community organizer, and DJ based in Halifax. Centring femme magic and creating spaces that celebrate black and brown brilliance is what fuels her music practice and community building ethos. Weaving afrobeat, disco, early house, and funk, Shyshaya unapologetically holds space for sounds of the black diaspora.",
-    "photo": "Shaya-HS1.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/shyshaya/"
-  },
-  {
-    "id": 38,
-    "name": "Obaby",
-    "description": "",
-    "photo": ""
-  },
-  {
-    "id": 39,
-    "name": "Laraaji",
-    "description": "Born Edward Larry Gordon, this new age visionary came to prominence in the late 1970s after attracting the attention of ambient guru Brian Eno while busking in Washington Square Park. The fabled encounter led to Laraaji’s album-length contribution to Eno’s seminal Ambient Series, Ambient 3: Day of Radiance. With Eno behind the boards, Laraaji’s versatile, blissed-out approach to zither playing reached new heights and, at the same time, ears around the world.\n\nIn the decades since, Laraaji has maintained an emphatic international following. Having released countless trance-inducing recordings, and led concerts and meditation workshops the world over, his work is revered for its ability to inspire a unique lightness of spirit. More recently, portions of his immense back catalogue have seen renewed interest thanks to reissues from major tastemaker labels including Soul Jazz, Light In The Attic, Stone’s Throw subsidiary Leaving Records and Eno’s imprint All Saints.\n\nHis compositions move effortlessly between soothing dronescapes, invigorating minimalism and celestial ambience. Ever a force of positivity, we feel absolutely blessed to be hosting this legendary beacon.",
-    "photo": "liam_ricketts_laraaji_warp_records_mg_8612.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/laraaji-2/"
-  },
-  {
-    "id": 40,
-    "name": "Kara-Lis Coverdale",
-    "description": "Referred to as “one of the most interesting composers in North America” by The Guardian, Kara-Lis Coverdale is a national treasure working on an international scale at the intersections of electronic composition and new classical. She creates dense, colourful arrangements that blur the line between human touch and data stacking. With a unique penchant for long-form melody, harmony, and sonic detail, her work is nuanced and sumptuous.\n\nA classically trained pianist, a scholar with a focus on sculpted realisms in recorded music, and a go-to collaborator for noisenik Tim Hecker, Coverdale’s output showcases a considered approach and whipsmart sensibility through and through. At this year’s Convention, she’ll be mounting a piece for solo piano entitled PICL (Pieces In Caps Lock) that ‘offers an essential narrative on the limitations of mediation, the capabilities of touch, and the immense consequences of either embracing of overcoming instrumental change’.",
-    "photo": "Kara-Lis-River-300x300.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/xylouris-white/"
-  },
-  {
-    "id": 41,
-    "name": "Echo Beach",
-    "description": "Julie Matson has been soothing audiences through transformative performances for the past five years. The Montreal-based, Vancouver-bred composer showcases a great sophistication in blending gentle analog tones with clever conceptual underpinnings. The resulting work is a wonderfully understated marvel, as Matson stretches slight melodies into tonal universes. While the mood can prove liminal and ghostly, Matson’s genuine engagement is ever apparent and pervasive. High quality deep listening from the Jeunesse Cosmique crew.",
-    "photo": "ECHO-BEACH_highres.jpg",
-    "obeyUrl": "http://www.obeyconvention.com/artists/echo-beach-2/"
-  }
+ 
+      {
+        "id": 1,
+        "name": "Sacred Wolf Singers",
+        "description": "Tee Cloud from Metepenagiag and Julian Wells from Unama’ki are The Sacred Wolf Singers  — a Mi’kmaq drumming group who perform traditional and contemporary songs to honour the uniqueness of the Mi’kmaq language and its inherent cultural knowledge. Growing up, Tee Cloud and Julien both learned from their fathers about singing. Tee Cloud has gone on to learn from and collaborate with George Paul, the famed Mi’kmaq songwriter who received The Mi’kmaq Honour Song during a 1980s sweat lodge. Naming the group out of their deep respect for the wolf, the duo have followed the pow wow trail throughout Mi’kma’ki since 2014. With stirring vocals and an unshakable rhythm, we couldn’t think of a better way to kick things off at this year’s convention.",
+        "photo": "Sacred-Wolf-Singers.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/sacred-wolf-singers/"
+      },
+      {
+        "id": 2,
+        "name": "Gina Burgess",
+        "description": "Gina Burgess seems to have endless stores of energy and passion. Over the last two decades, she’s become one of Halifax’s most in-demand and well-respected musicians, both as a soloist and educator. Her flourishing began with Gypsophila, a band that retired recently after a decade-long run replete with five releases, four ECMA wins and countless sold-out shows. As that project heads out to pasture, Gina’s career has kept busy with The Jerry Cans, a Juno-nominated, Iqaluit-based Arctic rock band. What’s more, Gina has her own solo project emerging: a striking new classical undertaking that combines heady minimalism with hints of klezmer and celtic influence. In partnership with The Fountain School Of Performing Arts, we’ve commissioned Gina to score an overture for this year’s festival. Featuring a string quartet led by Burgess and countertenor Andrew Pickett, her unique compositional voice will aid in unleashing this weekend of sonic wilding.",
+        "photo": "Gina-Burgess.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/gina-burgess/"
+      },
+      {
+        "id": 3,
+        "name": "Liu Fang",
+        "description": "Born in Kunming in the province of Yunnan, China and currently residing in Montreal, Liu Fang is one of the world’s foremost performers of classical Chinese literati music. A tradition with heavy philosophical and poetic associations, Liu Fang’s virtuosic talent and sensibility suffuse this music with vivid detail. Performing on the pipa, a traditional lute dating back over two-thousand years, Liu Fang demonstrates an intensity typified by the roots of her practice. Rather than mere entertainment or even intellectual expression, the focus of a Chinese literati music practice is that of self-cultivation, meditation, mind-purification and spiritual elevation. We’re beyond grateful to be partnering with The Confucius Institute in presenting this world-renowned performer.",
+        "photo": "Liu_Fang_IMG_2133-600px.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/liu-fang/"
+      },
+      {
+        "id": 4,
+        "name": "New Hermitage",
+        "description": "This chamber jazz quartet is the most recent vehicle of Andrew MacKelvie, a fearless improviser whose contributions to Atlantic Canada’s avant-improv scene have proven indispensable. New Hermitage sees the woodwind phenom turn his patient ear towards the natural world, revealing compositions that centre around a future theory; a post-apocalyptic drawl, a delicate returning to the elements. Each piece unfolds in accommodating detail, filled out by an all-star crew: Ellen Gibling (harp), Ross Burns (guitar) and India Gailey (cello). Rich expressions of joy, sorrow and tenderness combine to create a deeper sense of space-time. New Hermitage reminds the listener that merely being together is an intricate and complicated affair. Awareness en masse.",
+        "photo": "newhermitagephoto1.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/liu-fang/"
+      },
+      {
+        "id": 5,
+        "name": "id m theft able",
+        "description": "id m theft able performs within and without the realms of noise, avant-improvisation, sound poetry, performance, etc., etc., etc… Using voice, found objects, electronics, and whatever else is available, this one-man maelstrom of ideas and indeterminacy has performed hundreds of shows since the late 90’s, with venues ranging from the scummiest of squats to the fanciest of festivals. Discovering and delving into his work has felt like finding a clogged artery at the heart of OBEY, squeezing it, and then witnessing as it floweth over with a perpetual and psychedelic oozing.",
+        "photo": "idm-theftable-600px.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/id-m-theftable/"
+      },
+      {
+        "id": 6,
+        "name": "Science Project",
+        "description": "Yet another freek-twisted incarnation of the great Cody Googoo (Booji Boys, Alienation, Negative Rage, Unreal Thought, etc etc etc). Googoo is, has been and (we hope) always will be a total institute of Halifax punk. With Science Project, he veers into herky-jerky, tongue in cheek territory, invoking a micro-Devo aesthetic through the teenage politico-scope of Lux Interior. We could wax all day about exactly which pleasure centres these bonzo rawkers hit, but we’ll keep it simple as they do: Demented Rock For Depraved Humans.",
+        "photo": "science-project-obey.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/id-m-theftable/"
+      },
+      {
+        "id": 7,
+        "name": "skin tone",
+        "description": "skin tone is James Nicholas Dumile Goddard’s mostly solo performance project. skin tone explores issues related to blackness, the canon, and the future. When he djs, it’s a blend of trans-national folk musics, african-american classical music and other out bangers.",
+        "photo": "Skintone.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/skin-tone/"
+      },
+      {
+        "id": 8,
+        "name": "WANDARIAN",
+        "description": "This solo project from Walton resident Jesse Griffith is some of the most unique and powerful music we’ve heard come out of the hardened rural lands of Nova Scotia (and that’s really saying something). A jack-of-all-trades guitarist who’s dabbled in country, jazz, folk, top 40 and more, Griffith is a restless seeker. WANDARIAN finds him creating unlikely sounds by approaching his nylon string guitar as a landscape; unpacking and smashing together the lessons he’s sought in Two Eyed Seeing (a tradition of awareness that combines both settler and indigenous perspectives) and West African kora music. The result is a blend of unprecedented sound and texture, music that challenges assumptions and reveals new vistas. A clear product of tangled heart and percussive melody, shaped by the tides and eyes wide-open.",
+        "photo": "Wandarian.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/wandarian/"
+      },
+      {
+        "id": 9,
+        "name": "Hussam Al Assaf",
+        "description": "Hussam Al Assaf is a heartfelt vocalist and oud player hailing from Syria. He’s been performing publicly since 2005, offering his unique slant on traditional folk music. After a short stint in the Jordanian capital of Amman, he immigrated to Canada, landing in Halifax in 2016. We witnessed Hussam performing this winter alongside Iranian composer Mohammad Sahraei (who’ll be joining again during OBEY), his rich vocals and powerful playing completely mesmerized us.",
+        "photo": "Hussam-Al-Assaf.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/hussam-al-assaf/"
+      },
+      {
+        "id": 10,
+        "name": "Sarah Hennies",
+        "description": "A composer and percussionist whose work utilizes an often grueling, endurance-based performance practice, Sarah Hennies examines psychoacoustics, queer identity and expressionistic absurdity, all through a subversive lense. In her internationally lauded performances, outdated binaries dissolve: those between sound and music, tension and release, resistance and submission. Each of her compositions displays a kind of ferocity in dedication; a rigid conceptual underpinning that elevates the felt experience of the work to an almost preposterous degree. We’re honored to be hosting Sarah for both a solo performance and the Canadian premiere of Contralto a new, hour-long video work that uses the sound of trans women’s voices to explore transfeminine identity from the inside, revealing the intimate, peculiar, and powerful relationship between gender and sound.",
+        "photo": "Sarah-Hennies-by-walter-wlodarczyk-2017-04-29-_87A5845-600px.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/hussam-al-assaf/"
+      },
+      {
+        "id": 11,
+        "name": "Melody McKiver",
+        "description": "An Anishinaabe multidisciplinary artist and arts educator, Melody McKiver is a vital voice in the movement turning critical eyes towards the realities of colonization on Turtle Island. Currently living in Sioux Lookout on Treaty #3 territory, McKiver is a member of Obishikokaang Lac Seul First Nation on their mother’s side and of settler Canadian Scottish-Lithuanian descent on their father’s side. Their most recent release, 2017’s Reckoning EP, is a deeply moving score for a theatre production of the same name. Centered around McKiver’s viola playing, a stark, experimental blend of Western Classical and Anishinaabe traditions, the work explores the effects of Indian Residential Schools and the repercussions of The Truth and Reconciliation Commission. Their art not only raises awareness but celebrates the diversity and resilience of their own culture amongst the hundreds of Indigenous cultures that still call Turtle Island home.",
+        "photo": "Melody-McKiver.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/melody-mckiver/"
+      },
+      {
+        "id": 12,
+        "name": "Ono",
+        "description": "This legendary, long-running avant-industrial outfit from Chicago move through themes of trauma and tragedy towards ecstatic sites of supreme power. With a performative lense, ONO tackle gospel’s darkest conflicts, the cavernous pits of toxic masculinity, and insidious militarism, among many other horrifying realities. Armed with heavy rhythms, queered religious affect and a deep, dark smirk, ONO’s live show creates a space of catharsis and reverence for contemporary pain. An idiosyncratic voice of resistance explicitly targeting the evils of America for over 30 years: as the world gets darker and darker, ONO only grow more striking and vital.",
+        "photo": "ONO-William-Camargo.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/ono/"
+      },
+      {
+        "id": 13,
+        "name": "Sydanie",
+        "description": "Often referred to as a supernatural rapper mom, Sydanie is a magnetic emcee with unheralded energy. A Toronto born, Jamaican-Trinidadian artist, Sydanie is basically levelling all expectations and setting the bar at new heights for women in the TO hip hop scene. Her impeccable production treatments run the spectrum from house to ambient dark trap. Nuanced beats lay the foundations for Sydanie to unpack her lyrical fireworks; ranging from meditative to incendiary, Sydanie’s verses transmit a contagious momentum that results in seriously deep thrills for the listener.",
+        "photo": "Sydanie.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/sydanie/"
+      },
+      {
+        "id": 14,
+        "name": "Maximata",
+        "description": "Beginning in 2005, Eric Diolola (aka Maximata) immersed himself in the underground sound art scenes throughout Cavite and Manila in The Philippines. The following decade would see him mentoring and collaborating with a wide range of artists including a who’s-who of the Filipino avant-garde, Japanese noise pioneer Seidou Toshiyuki and Taiwanese pipa player Luo Chao Yun. Using anything from psps, gameboys, broken effects pedals, midi joysticks, indigenous instruments, toddler toys, casio , samples, circuit bending and laptops, Diolola explores a wide range of sounds and textures in his work. With Maximata, Diolola harnesses his mega powers to unleash woozy cuts of off-club beats. As danceable as it is disorienting, the music of Maximata showcases a restless mind intent on bending the rules of everything.",
+        "photo": "Maximata.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/maximata/"
+      },
+      {
+        "id": 15,
+        "name": "DJ Douvet",
+        "description": "Douvet’s music tastes were formed in his household with gospel, r&b and hip-hop being played all day by both his parents and his older sister. The commonality he heard was soul and rhythm: it was music that made you feel something. Douvet attempts to translate those feelings to the dance floor. Music can connect us to realities beyond our everyday experiences and it can also show us how to properly inhabit the present moment in order to get through and recover from pain. For Douvet, music presents an opportunity to heal and to escape. Oh, and also a chance to dance your ass off.",
+        "photo": "DJ-Douvet.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/dj-douvet/"
+      },
+      {
+        "id": 16,
+        "name": "Yohvn Blvck",
+        "description": "Yohvn Blvck is a performer from the small island of Antigua. Currently based in Halifax, his unique style of hip-hop has found roots in the underground music communities, exploring familiar topics like love and substance abuse through a shadowy lense. An eager and generous performer, Yohvn laces his live shows with big energy to counter the bass-heavy, dark-toned production of his music.",
+        "photo": "Yohan-Black.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/yohvn-blvck/"
+      },
+      {
+        "id": 17,
+        "name": "DIáSPORA",
+        "description": "A nomadic band formed for the occasion of a South & Central American tour in 2017, DIáSPORA features the one-two wonder of Chiquita Magic (voice, synths) & Anaïs Maviel (voice, percussion). This duo conjures a futuristic carnival music that cross-pollinates complex realities and inspires lucid dreams. Steeped in diasporic folklores and urbanities, they approach music as ritual, manifesting uncanny grooves that transform into layered abstractions. These femmes emanate a contagious freedom in performance shaped both by the motions of people and their encounters as an articulation of Creoleness.",
+        "photo": "DIáSPORA-by-pimienta-negra.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/diaspora/"
+      },
+      {
+        "id": 18,
+        "name": "Bria Cherise Miller",
+        "description": "Originally born in Yarmouth, Nova Scotia, Bria is a Queer, Black, Indigenous mixed media visual artist, musician and graphic facilitator currently living in the North End of Halifax. Through her dedication to building equity and relationships in community, she is working to create spaces–sometimes literally through fort building–where racialized and LGBTQIAP+ artists can be centered. The spaces she holds are intended to invite marginalized folks to create on their own terms, have support and access to resources they need, collaborate, connect across difference, and have their individual voices amplified and heard. For her part in OBEY, Miller will be sitting down with members of ONO to explore shared interests in creativity, institutional marginalization and POC histories.",
+        "photo": "Bria-Miller.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/bria-cherise-miller/"
+      },
+      {
+        "id": 19,
+        "name": "Platitudes",
+        "description": "PLATITUDES is a collaboration between inter-disciplinary artists Julia Dyck (Ghoul Talk, The XX Files) & James Goddard (skin tone, NYON). They do radio, performance and A/V presentations. Their work is often thematic and draws on a range of influences to bring together multi-faceted, always-different spectacles. Platitudes wonders how many ways there are to say the things that are said.",
+        "photo": "Platitudes.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/platitudes/"
+      },
+      {
+        "id": 20,
+        "name": "Cutie",
+        "description": "Halifax’s punk scene has been punching above its weight for years and years and years. Every amazing punk band has three sister-projects, a beer-leaguer and a twisted cousin. Cutie is the very pissed-off (bp)d-beat four-piece writhing mercilessly at the centre of said tangled web.  They’ll rip yr bloody ears off and smile while they’re at it.",
+        "photo": "Cutie.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/cutie/"
+      },
+      {
+        "id": 21,
+        "name": "Pharmakon",
+        "description": "With the release of 2017’s transcendent, rib-crushing LP Contact, Margaret Chardiet celebrated the ten-year anniversary of her solo project, Pharmakon. The undisputed queen of NYC’s harsh noise underground, Chardiet has worked tirelessly to bring new edges, new ideas into a realm traditionally reserved for expressions of alienation and withdrawal. Employing gnarled industrial pulses, heavy power electronics, and unbridled vocal release, Chardiet envelops the audience into a heavy, collective energy. This energy/empathy has always been at the heart of Pharmakon’s ritualistic performances. With Contact, finally, Chardiet has created a body of work that reflects this exchange. As the adjoining artist statement insists: “When we pick up on transmissions between the private rooms inside our heads and the flesh of our vessels, when thought escapes its isolation and is seen, heard and understood. When our mind uses the body in order to transcend and escape it! The moments of connection/communion/CONTACT, when the veil is for a brief but glorious moment lifted, and we are free. Empathy! EMPATHY, NOW!”",
+        "photo": "pharmakon-02-600px.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/cutie/"
+      },
+      {
+        "id": 22,
+        "name": "Vile Creature",
+        "description": "This blackened doom metal two-piece hails from Hamilton, Ontario. Their most recent release, Cast Of Static and Smoke, is a rib-crushing headtrip. Over four tracks running 44 minutes, Vic and KW (self-described as an ‘antioppressive, angry, queer doom cult’) take the listener on a journey centering around a postapocalyptic sci-fi narrative. Written first as a short story then conceptualized as an album, the LP skirts the conceptual pitfalls of becoming heavyhanded; the results are just fucking HEAVY, full stop. Transitioning seamlessly between ideas and flowing beautifully between motives while retaining a torturous gnarl, Cast Of Static and Smoke marks the duo as one of the most exciting doom outfits on the continent.",
+        "photo": "Vile-Creature.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/vile-creature/"
+      },
+      {
+        "id": 23,
+        "name": "Nídia",
+        "description": "This Fever Ray collaborator is one of contemporary dance music’s brightest producers. The Portuguese-born, Bordeaux-based firestarter landed herself on recent year-end lists from Pitchfork, The Wire, NPR, The Quietus; all at the ripe young age of 21. Her deft approach to production finds roots in kuduro, an Angolan style of heavy-hitting 80’s dance music that migrated to Portuguese communities throughout the following decade, being further shaped by Western house influences and hyper-local punk mentalities. As kuduro continues to shed its regional limits and infiltrate the larger global consciousness, Nídia’s music sounds more and more unique: shot through with a disaffected attitude, anchored by buzzsaw bass and streams of left-field melody.",
+        "photo": "nidia2.jpeg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/nidia/"
+      },
+      {
+        "id": 24,
+        "name": "Jerico",
+        "description": "Jerico is a 22 year old, Haitian-Canadian DJ, producer and vocalist who has quickly been recognized as one of Montreal’s most promising young artists; a wildly inventive producer responsible for unique club abstractions and countless memorable late-nite DJ sets. His energy behind the decks is a welcome jolt to any party, but it’s his talent for blending seemingly disparate styles into one cohesive vibe that sets him apart from his peers. His selector sets draw broadly from African rhythms to contemporary underground club music, while his own productions further enmesh these touchstones with idiosyncratic flourishes. With synths, FX, samples and his own singing in Haitian-Creole, Jerico creates something truly personal and unique. Walls, a dark, complex and contemplative dance floor sparking EP out in April, features the first recorded cuts of Jerico’s vocals and a crushing collaboration with Pelada’s Chris Vargas. We wouldn’t be surprised if this new development takes Jerico out of our reach and deep into the international orbit, so we’re psyched to catch him on the upswing.",
+        "photo": "JERICO-1.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/jerico/"
+      },
+      {
+        "id": 25,
+        "name": "Benjamin",
+        "description": "Benjamin is a Halifax-based MC mining a unique store of trap-influenced hip-hop. With production touches by legendary 902 chemist Jordan Metro, his tracks elicit a hazy blend of ambience and inflected with an energetic flow. Benjamin’s musical innovation is subtle, clever and contemporary; combining influences from his upbringing by a classically-trained mother and musician father, hints of golden-era contemplation and du-jour flourishes of A$AP-mentality and Travis Scott posturing. At the ripe age of 20, having spent the last two years rediscovering his artistic edges, Benjamin is poised to emerge as a primal force in East Coast hip-hop.",
+        "photo": "Benjamin.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/benjamin/"
+      },
+      {
+        "id": 26,
+        "name": "DJ Fadzwa",
+        "description": "DJ Fadzwa has been changing the way people dance in Halifax since 2013. Originally from Zimbabwe, Fadzwa draws from a wide range of high energy music with a special focus on afro-house, dancehall and moohmbaton. He is founding member of Halifax’s all-important BahNahNah DJ collective and a regular at AlterEgos brunch and The Khyber’s late night sweat-a-thons. Basically, Fadzwa is a life force for a number of communities looking to free their minds and move their bodies. We’re feeling blessed to have him back in the fold!",
+        "photo": "OBEY-photo-DJ-Fadzwa-HFX.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/dj-fadzwa/"
+      },
+      {
+        "id": 27,
+        "name": "Ray Fenwick",
+        "description": "Landing somewhere between experimental comedy and sound art, the performance work of Ray Fenwick leaves the audience gently boggled. Rather than work to a point, his performances tease apart sign-making systems, revealing all the glorious mess and absurdity within. An interdisciplinary artist working with performance, video, sound and typography, Ray is one of the sharpest, funniest people we know. His work is a playful attempt to explore unusual relationships to language, voice, and communication. Having performed and exhibited extensively over the last decade from coast to coast, Ray has emerged as a major voice in contemporary art in Canada. We’re thrilled to be hosting his newest piece, How To Talk With Plants, wherein this expert guide neurotically explores the curious failures of communication.",
+        "photo": "Ray-Fenwick-HOLD-FAST-2017-photo-Philippa-Jones8-cropped.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/ray-fenwick/"
+      },
+      {
+        "id": 28,
+        "name": "Joseph Shabason",
+        "description": "Joseph Shabason’s 2017 solo debut, Aytche, reveals a large and luscious world of new-jazz greenery. The in-demand composer (who’s worked most notably with Destroyer, The War On Drugs, DIANA and Andre Ethier) unfurls his transfigured sax tones into something much more ethereal, curious and evocative when working by his lonesome. Recalling trumpeter Jon Hassell’s early 80’s output, Shabason conjures up vivid inner landscapes, populated by reeds and tides, tweaked by an infatuated longing.",
+        "photo": "joseph_shabason_1-600px.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/joseph-shabason/"
+      },
+      {
+        "id": 29,
+        "name": "Melissa Labrador & Corbin Hart",
+        "description": "Melissa and Corbin hail from the Wildcat Community of Acadia First Nation in South Brookfield, Nova Scotia. The couple share a passion for the traditional teachings, crafts, art and music of the Mi’kmaq, and are invested in the revival, education and continuing practice of the Mi’kmaq culture and traditions among their people and others. Together, they make beautifully hand-carved flutes tuned to the harmonics of Mother Earth at 432hz. Their music practice is centered around the concept that, with careful attention and technique, music can be a deeply healing practice for both player and listener alike.\nWe’re grateful to have these two join us for an opening ceremony and a Sunday afternoon performance.",
+        "photo": "Melissa-Labrador-Corbin-Hart-2.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/melissa-labrador-corbin-hart/"
+      },
+      {
+        "id": 30,
+        "name": "Un Blonde",
+        "description": "Un Blonde is the solo project of Montreal-based musician, producer, and composer Jean- Sebastian Audet, whose world is a constantly mutating series of musical environments, forging brilliant connections between contemporary r&b, cubist avant-funk, low-key soul and confessional songwriting. Since 2012 Audet has released over 7 albums under his various monikers including Un Blonde, Faux Fur, You Are Minez and Zouk Fuck, each one a distinct constellation of his inimitable talent. His most recent effort, Good Will Come To You, sold-out its short-run Egg Paper cassette release instantly and later found wide acclaim as an expanded LP re-released through stalwart Calgary label Flemish Eye in 2017. Since then, Audet has drop one compact, speckless single, ‘Nerve For The Ages’ which premiered when news traveled that he’d signed to ANTIRecords. Whatever comes next from this rising phenom, we expect it will knock us sideways; he’ s been doing that since he was 16 years old. Repeatedly. Every damn time.",
+        "photo": "Un-Blonde-1.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/un-blonde/"
+      },
+      {
+        "id": 31,
+        "name": "Anaïs Maviel",
+        "description": "Anaïs Maviel is a vocalist, percussionist, composer, educator, curator & healer based in New York. Her recent work focuses on the function of music as understood in traditional societies: essential to settling common grounds and addressing relation. Inspired by Martinique thinker Édouard Glissant’s reflections on Creolization, Maviel entwins her work with the inextricable currents that move spaces and people between times and lands. Her solo performances are an effortless blend of genres and cultures, centering her stunning, exploratory vocal paths as they’re accompanied by tender surdo (Brazilian drum) and n’goni (West African harp). A creative force capable of assuaging pain and distance through deep, delicate sounding.",
+        "photo": "AnaisMavielbyCameronKelly10-600px.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/anais-maviel/"
+      },
+      {
+        "id": 32,
+        "name": "Markus Floats",
+        "description": "Markus Floats is the solo project of Montréal musician Markus Lake. He presents audiences with lush soundscapes and dynamic textures that explore the affecting possibilities of real-time digital signal processing. Markus’ 2017 debut is one of our favourite ambient albums in recent memory, an engaging set with a subtle range that provides the perfect soundtrack for deep thinking. He recently released his second album, titled simply Second Album.",
+        "photo": "Markus-Floats.jpg",
+        "obeyUrl": "http://www.obeyconvention.com/artists/markus-floats/"
+      }
+
 
 ]
 

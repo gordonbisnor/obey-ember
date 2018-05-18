@@ -1,8 +1,36 @@
 &.for-artist {
-  background-color: transparentize(black,0.5);
-  border-top-width: 0!important;
   padding: 1em;
   * {
     font-size: 1rem!important;
   }
+}
+& {
+  margin: 2em;
+  border: 1px solid white;
+}
+
+header {
+  background-color: #222222;
+}
+.venue {
+  border-top: 1px solid white;
+}
+.deets {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid white;
+}
+.deet {
+  flex-basis: 33%;
+  text-align: center;
+}
+.deet + .deet {
+  border-left: 1px solid white;
+}
+.deet-inner {
+  text-align: center;
+}
+.artist + .artist {
+  border-top: 1px solid white;
 }

@@ -1,41 +1,59 @@
+$pink: #de2d58;
+$light-pink: #ff99cb;
 
-$purple: rgb(141,121,144);
-$orange: #c96350;
-$pink: rgb(153, 57, 95);
- 
 * {
-
 -webkit-user-drag: none;
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
-  user-drag: none;
+  user-drag: none;  
    -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -o-user-select: none;
   user-select: none;
   -webkit-touch-callout: none; /* disable the IOS popup when long-press on a link */
-
-
 }
 
 @import "pod-styles";
 
 .pink {color:$pink!important;}
+.light-pink {color:$light-pink!important;}
 
 .upcase {text-transform: uppercase!important;}
 
 h1 {
   font-weight: normal!important;
 }
-
+html,body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  position: fixed;
+  overflow: hidden;
+}
 body {
-  background-image: url('BG-05.jpg');
+  background-image: url('Page-BG-02.jpg');
   font-size: 18px;
+  width: 100%;
+  justify-content: stretch;
+  overscroll-behavior-x: none;
+  overscroll-behavior-y: none;
+
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  flex-direction: column;
 }
 * {
-  font-family: arial, helvetica, sans-serif;
+  font-family: verdana, helvetica, arial, sans-serif;
 }
 .logo {
   -webkit-user-drag: none;
@@ -60,7 +78,6 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   li {
-    background-color: transparentize($pink,0.8);
     padding: .5em;
     padding-left: .75em;
     padding-right: .75em;
@@ -70,20 +87,16 @@ body {
 }
 a {
   text-decoration: none;
-  color: $purple;
   transition: color .5s;
   &.active {
-    color: $orange;
+    color: $pink;
   }
   &:hover {
-    color: $orange;
+    color: $pink;
   }
 }
 .desc {
   font-weight: 300;
-}
-.show + .show {
-  border-top: 1px solid $pink;
 }
 .bt, .bb {
   border-bottom-color: $pink!important;
@@ -92,7 +105,6 @@ a {
 .has-bg {
   padding: 2em;
   padding-top: 1em;
-  background-color: transparentize($pink, 0.8);
   border-radius: 3px;
 }
 img {
@@ -100,13 +112,13 @@ img {
   border-radius: 3px;
 }
 .bordered {
-  border: 1px solid transparentize($purple,0.7);
+  border: 1px solid white;
 }
 .transparent-text {
-  color: transparentize(lighten($pink, 40%),0.3);
+  color: white;
 }
 .pullquote {
-  background-color: transparentize(darken($purple,50%),0.4);
+  background-color: transparentize(darken($pink,50%),0.4);
   padding: 3em;
   font-style: italic;
   color: transparentize(lighten($pink,20%),0.4);
@@ -114,4 +126,7 @@ img {
 .day-links .link-follower {
   border-color: $pink;
   border-size: 3px;
+}
+#header {
+  background-image: url('Header-bg.jpg');
 }

@@ -1,9 +1,11 @@
 {{title model.name}}
 
-<h1 class="tc mt2  upcase f2 p0 mb0 pt2">
+<h1 class="tc mt4  upcase f2 p0 mb0">
   {{model.name}}
 </h1>
 
 {{#each model.shows as |show|}}
   {{show-description show=show}}
 {{/each}}
+
+{{remember-document-scroll key=model.id}}
