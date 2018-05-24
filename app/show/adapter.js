@@ -106,7 +106,7 @@ export default ApplicationAdapter.extend({
     },
     {
       "id": 8,
-      "dayId": 3,
+      "dayId": 2,
       "name": "ONO + Sydanie + Maximata + DJ Douvet",
       "venue": "Seahorse Tavern",
       "time": "10pm",
